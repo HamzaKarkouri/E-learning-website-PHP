@@ -1,0 +1,596 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&display=swap');
+*{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    
+}
+header{
+
+    display: flex;
+}
+
+
+.head{
+    width: 100%;
+    height: 10%;
+    background-color: rgb(185, 162, 187);
+}
+.image1{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    left: 14px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 4%;
+    background-color: rgb(185, 162, 187);
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  ul:hover{
+      width: 15%;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 8px 16px;
+    text-decoration: none;
+    margin-left: 0%;
+    height: 30px;
+    
+  }
+  
+  li a.active {
+    background-color: #a77b96;
+    color: white;
+    
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  .imgg{
+    position: absolute;
+    left: 11px;
+    width: 35px;
+    height: 35px;
+  }
+  span{
+    position: relative;
+    left: 46px;
+    top: 15px;
+    font-size: 17px;
+  }
+  .bar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+  }
+  
+  .barr{
+    position: relative;
+    margin-left: 62px;
+    width: 100%;
+    height: 47px;
+    background-color: rgb(248, 241, 241);
+  }
+  input{
+    position: relative;
+    margin-left: 20px;
+    width: 30%;
+    height: 70%;
+    border-radius: 7px;
+    border: 1px solid grey;
+    top: 15%;
+    left: 20%;
+  }
+  .acc{
+    position: relative;
+    left: 85%;
+    width: 40%;
+    height: 35px;
+    top: -27px;
+  }
+  .image2{
+   width: 35px;
+    height: 35px;
+  cursor: pointer;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+
+
+.boxs{
+  position: relative;
+top: 100%;
+  margin-left: 5px;
+  width: 100%;
+  height: 600px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  display: flex;
+}
+.box1{
+  position: absolute;
+  
+  top: 150%;
+  left: 3%;
+  width: 20%;
+  height: 84%;
+  border-radius: 5px;
+  background-color:#a77b96 ;
+  cursor: pointer;
+z-index: 1;
+}
+.box1:hover{
+  background-color:#644658  ;
+  transition: background-color 0.5s ease;
+}
+.box11{
+  position: absolute;
+  
+  top: 150%;
+  left: 30%;
+  width: 20%;
+  height: 84%;
+  border-radius: 5px;
+  background-color:#a77b96 ;
+  cursor: pointer;
+z-index: 1;
+}
+.box11:hover{
+  background-color:#644658  ;
+  transition: background-color 0.5s ease;
+}
+.pluus{
+  position: absolute;
+  width: 50%;
+  height: 80%;
+  left: 20%;
+  bottom: 10%;
+}
+.pluus1{
+  position: relative;
+  width: 20%;
+  height: 100%;
+  border-radius: 5px;
+  margin-left: 0%;
+  background-color: #644658;
+}
+.texto1{
+  font-size: 35px;
+position: relative;
+left: 3%;
+}
+.texto{
+position: absolute;
+top: 20%;
+color: white;
+font-size: 20px;
+left: 30%;
+}
+.barr2{
+  z-index: 6000;
+}
+.popup{
+  position: absolute;
+  top: 35%;
+  left: 30%;
+  width: 40%;
+  height: 20%;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+}
+.popupp{
+  position: absolute;
+  top: 35%;
+  left: 30%;
+  width: 40%;
+  height: 30%;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+}
+.inviter{
+  height: 15%;
+}
+a{
+  text-decoration: none;
+  margin-left: 10px;
+  color: rgb(65, 61, 61);
+}
+a:hover{
+  color:#8b406d;
+}
+
+.annuler{
+  position: relative;
+  top: 55px;
+  cursor: pointer;
+  height: 23px;
+  width: 20%;
+  background-color: #4287f5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+
+}
+.annuler:hover{
+  background-color:#223555 ;
+}
+.back{
+  position: absolute;
+  margin: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.568);
+  z-index: 100;
+}
+#bo{
+  
+  width: 12%;
+  height: 35%;
+  background-color: white;
+  border-radius: 8px;
+ color: black;
+  border: 0.5px solid rgba(148, 146, 146, 0.719);
+  z-index: 7000;
+}
+.account{
+position: absolute;
+  top: 6%;
+  left: 87%;
+ display: none;
+}
+.notif{
+  position: absolute;
+  top: 6%;
+  left: 84%;
+  display: none;
+}
+.chat{
+  position: absolute;
+  top: 6%;
+  left: 80%;
+  display: none;
+}
+
+
+.mod{
+  position: relative;
+  left: 89%;
+  top: 25%;
+  cursor: pointer;
+}
+.texto3{
+  position: relative;
+  left: 40%;
+  font-size: 18px;
+  bottom: 95%;
+}
+.boxs2{
+  position: absolute;
+  top: 20px;
+  left: -25px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.boxs3{
+  position: absolute;
+  top: 35px;
+  left: -18px;
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.save{
+  position: absolute;
+  left: 90%;
+  top: 20%;
+  width: 5%;
+  height: 3%;
+  text-align: center;
+  color: white;
+  border-radius: 15px;
+  background-color: #a77b96;
+cursor: pointer;
+}
+.hh{
+  z-index: 300;
+}
+#dossieri{
+  display: none;
+}
+
+.box5{
+  position: relative;
+top: 20%;
+margin-left: 5%;
+margin-top: 3%;
+  width: 300px;
+  height: 250px;
+  border-radius: 8px;
+  background-color:rgb(252, 249, 249) ;
+  border: 1px solid rgba(128, 128, 128, 0.671);
+}
+.backk{
+  position: relative;
+  
+  width: 100%;
+  height: 171px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.671);
+}
+
+.prof{
+  position: relative;
+  top: 5%;
+  left: 40%;
+  width: 25%;
+  height: 20%;
+}
+.fname{
+  position: relative;
+  top:8% ;
+  left: 20%;
+}
+.edit{
+  position: relative;
+width: 80%;
+height: 20%;
+left: 2%;
+cursor: pointer;
+background-color:rgb(245, 234, 234) ;
+  border: 1px solid rgba(192, 188, 188, 0.671);
+}
+.out{
+  position: relative;
+width: 80%;
+height: 30%;
+left: 2%;
+top: 40%;
+cursor: pointer;
+background-color:rgb(245, 234, 234) ;
+  border: 1px solid rgba(192, 188, 188, 0.671);
+}
+.formacc{
+  position: relative;
+  top: 3%;
+  height: 55%;
+}
+.edit2{
+  position: relative;
+  top: 50%;
+  left: 10%;
+}
+.editinput{
+  position: relative;
+  height: 30px;
+  margin-top: 20px;
+  margin-left: -180px;
+}
+.editinput2{
+  position: relative;
+  height: 30px;
+  margin-top: 20px;
+  margin-left: -200px;
+}
+.editinput3{
+  position: relative;
+  height: 30px;
+  margin-top: 20px;
+  margin-left: -190px;
+}
+.editbutton{
+  background-color: #4287f5;
+  cursor: pointer;
+  height: 23px;
+  width: 10%;
+  background-color: #4287f5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 15px;
+  left: 37%;
+}
+.edit3{
+  position: relative;
+  top: 200%;
+  left: 10%;
+}
+.texto2{
+  font-size: 30px;
+position: relative;
+left: 0%;
+}
+.editinput4{
+  position: relative;
+  height: 30px;
+  margin-top: 20px;
+  margin-left: -180px;
+}
+.editinput5{
+  position: relative;
+  height: 30px;
+  margin-top: 20px;
+  margin-left: -200px;
+}
+.editinput6{
+  position: relative;
+  height: 30px;
+  margin-top: 20px;
+  margin-left: -221px;
+}
+.mod{
+  position: relative;
+  width: 20px;
+  height: 20px;
+  left: 90%;
+  top: -192px;
+  cursor: pointer;
+  
+}
+.pointsmod{
+  
+  width: 80px;
+  height: 60px;
+  
+  background-color: white;
+  border-radius: 5px;
+  
+  border: 1px solid grey;
+}
+#pointsmodd{
+  position: relative;
+  
+  left: 80%;
+  top: -227px;
+  
+}
+.box2{
+position: relative;
+top: -5px;
+left: 12%;
+margin-left: -20%;
+width: 100%;
+height: 79px;
+border-radius: 4px;
+background-color:white ;
+border: 1px solid rgba(128, 128, 128, 0.199);
+cursor: pointer;
+background-color: rgba(0, 0, 0, 0);
+font-size: 18px;
+}
+
+.pointsupprimer{
+  
+  position: relative;
+  top: 5px;
+  left: 8%;
+width: 100%;
+height: 30%;
+cursor: pointer;
+border-radius: 3px;
+background-color: #a77b9611;
+border: none;
+font-size: 13px;
+}
+.pointmodifier{
+  position: relative;
+  left: 25%;
+  top: 13px;
+width: 100%;
+height: 30%;
+cursor: pointer;
+border-radius: 3px;
+background-color: #a77b9611;
+border: none;
+font-size: 13px;
+}
+.del{
+  position: relative;
+  top: -15px;
+  left: -67%;
+  width: 20px;
+  height: 20px;
+}
+.renn{
+  position: relative;
+  left: -2%;
+  top: -8px;
+  width: 20px;
+  height: 20px;
+}
+.confirmer{
+  position: absolute;
+  top: 400%;
+  width: 50%;
+  height: 120%;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+.popup2{
+  position: absolute;
+  top: 35%;
+  left: 30%;
+  width: 40%;
+  height: 14%;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  z-index: 2000;
+  border: 1px solid grey;
+  padding: 1%;
+}
+.e{
+  display: none;
+}
+.popup3{
+  position: absolute;
+  top: 35%;
+  left: 30%;
+  width: 40%;
+  height: 20%;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  z-index: 2000;
+  border: 1px solid grey;
+  padding: 1%;
+}
+th{
+  width: 25%;
+margin-left: 5px;
+ color: white;
+ background-color: #644658a4;
+ 
+}
+.thleft{
+border-top-left-radius: 10px;
+}
+.thright{
+border-top-right-radius: 10px;
+}
+
+.tr2{
+  background-color: rgba(206, 212, 212, 0.301);
+}
+tr{
+width: 100%;
+ height: 40px;
+ 
+}
+
+.back4{
+position: absolute;
+left: 55%;
+top: 30%;
+z-index: 1;
+text-align: center;
+width: 40%;
+
+}
+.del2{
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+}
+.renn2{
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+}
+.x2{
+  display: none;
+}

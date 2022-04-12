@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.container{
+    display: flex;
+    
+}
+
+.box1{
+    position: absolute;
+    width: 50%;
+    height: 740px;
+    background-color: rgba(244, 243, 247, 0.37);
+    right: 100px;
+}
+.image1{
+    position: absolute;
+    width:600px;
+    height: 500px;
+    left: 180px;
+    top: 100px;
+}
+.box2{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 50%;
+    height: 740px;
+    background-color: rgb(187, 188, 233);
+}
+
+.box3{
+    position: relative;
+    top: 100px;
+    left: 140px;
+    width: 60%;
+    height: 550px;
+    background-color: white;
+    border-radius: 7px;
+
+}
+
+input{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 80%;
+    height:38px;
+    border: 1px solid gray;
+    border-radius: 7px;
+    
+}
+.login{
+    cursor: pointer;
+}
+.form{
+position: relative;
+left: 55px;
+top: 50px;
+}
+
+.forgot{
+    font-size: 12px;
+    color: blueviolet;
+    text-decoration: none;
+    position: relative;
+    left: 275px;
+}
+.line{
+    position: absolute;
+    width: 83%;
+    height: 0px;
+border: 0.5px solid rgba(212, 35, 212, 0.534);
+top: 480px;
+left: 40px;
+}
+.register{
+    position: absolute;
+    
+    top: 500px;
+    left: 20px;
+    
+}
+.create{
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.mail{
+position: absolute;
+width: 32px;
+height: 32px;
+top: 279px;
+left: 550px;
+}
+
+.pass{
+position: absolute;
+width: 32px;
+height: 32px;
+top: 347px;
+left: 550px;
+}
+.confirm{
+    color: red;
+    font-size: 14px;
+}

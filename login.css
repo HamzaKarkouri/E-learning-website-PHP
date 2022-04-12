@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.container{
+    display: flex;
+    
+}
+
+.box1{
+    width: 50%;
+    height: 740px;
+    background-color: rgba(245, 243, 247, 0.37);
+}
+.image1{
+    position: absolute;
+    width:800px;
+    height: 700px;
+    left: -130px;
+}
+.box2{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 50%;
+    height: 740px;
+    background-color: rgb(136, 70, 197);
+}
+
+.box3{
+    position: relative;
+    top: 200px;
+    left: 170px;
+    width: 60%;
+    height: 60%;
+    background-color: white;
+    border-radius: 7px;
+
+}
+
+input{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 80%;
+    height:38px;
+    border: 1px solid gray;
+    border-radius: 7px;
+    
+}
+.login{
+    cursor: pointer;
+}
+.form{
+position: relative;
+left: 55px;
+top: 50px;
+}
+
+.forgot{
+    font-size: 12px;
+    color: blueviolet;
+    text-decoration: none;
+    position: relative;
+    left: 150px;
+}
+.line{
+    position: absolute;
+    width: 83%;
+    height: 0px;
+border: 0.5px solid rgba(212, 35, 212, 0.534);
+top: 300px;
+left: 40px;
+}
+.register{
+    position: absolute;
+    top: 350px;
+    left: 20px;
+    
+}
+.create{
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.mail{
+position: absolute;
+width: 32px;
+height: 32px;
+top: 295px;
+left: 550px;
+}
+
+.pass{
+position: absolute;
+width: 32px;
+height: 32px;
+top: 385px;
+left: 550px;
+}.wrong{
+    color: red;
+    font-size: 14px;
+}
+
+.boxx{
+    width: 14px;
+    height: 14px;
+
+}

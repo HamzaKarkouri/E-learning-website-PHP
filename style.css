@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&display=swap');
+
+*{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    
+}
+a{
+    text-decoration: none;
+}
+.container1{
+    background-color: rgb(245, 239, 240);
+    height: 700px;
+    width: 100vw;
+    
+}
+header{
+    display: flex;
+     
+}
+
+.image0{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 50px;
+    top: 450px;
+}
+
+.head1{
+    position: relative;
+    margin-left: 12px;
+    left: 700px;
+    cursor: pointer;
+    text-align: center;
+    width: 130px;
+    height: 25px;
+    border-radius: 15px;
+    background-color: rgb(238, 40, 106);
+    color: white;
+    top:15px;
+    padding-top: 6px;
+font-size: 17px;
+}
+.head2{
+    position: relative;
+    margin-left: 12px;
+    left: 700px;
+    cursor: pointer;
+    text-align: center;
+    width: 130px;
+    height: 25px;
+    border-radius: 15px;
+    background-color: rgba(168, 83, 111, 0);
+    color: black;
+    top:15px;
+    padding-top: 6px;
+font-size: 17px;
+}
+.head2:hover{
+    width: 130px;
+    height: 25px;
+    border-radius: 15px;
+    background-color: rgb(238, 40, 106);
+    color: white;
+}
+.container{
+    display: flex;
+    margin-top: 30px;
+    width: 100%;
+    height: 100%;
+ 
+}
+.image1{
+    position: absolute;
+    width:800px;
+    height: 800px;
+    background-image: url(../images/maybe.png);
+    background-size: 800px 800px;
+    background-repeat: no-repeat;
+    left:780px;
+    top: 5px;
+}
+h1{
+    color: rgb(31, 31, 97);
+    font-size: 70px;
+}
+.button1{
+    position: absolute;
+    top: 165px;
+    left: 514px;
+    text-align: center;
+    width: 135px;
+    height: 35px;
+    border-radius: 7px;
+    background-color: rgb(238, 40, 106);
+    color: white;
+    cursor: pointer;
+    padding-top: 1%;
+    font-size: 18px;
+}
+.button1:hover{
+    background-color:rgb(31, 31, 97) ;
+}
+
+input{
+    width: 500px;
+    height: 40px;
+    border-radius: 7px;
+    border: 0.5px solid grey;
+}
+
+
+.title{
+    position: relative;
+    left: 170px;
+    top: 150px;
+    width: 500px;
+    height: 500px;
+    
+}
+p{
+    color: black;
+}
+
+
+.image2{
+    position: relative;
+    width: 130px;
+    height: 50px;
+    left: 80px;
+    top:15px;
+    cursor: pointer;
+}
+
+
+.container2{
+    width: 100%;
+    height: 750px;
+    background-color: white
+  
+}
+.title2{
+    position: relative;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    top: 60px;
+}
+.boxx{
+    position: relative;
+      display: flex;
+    flex-wrap: wrap;
+    top: 80px;
+    left: 80px;
+}
+.box{
+    margin-top: 20px;
+    width: 400px;
+    height: 350px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 50px;
+    
+    text-align: center;
+}
+.image3{
+   padding-left: 13%;
+   width: 80px;
+   height: 80px;
+}
+#myBtn {
+    display: none;
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; 
+   
+    background-color: rgb(238, 40, 106);
+    color: white; 
+    cursor: pointer; 
+    padding-left: 2px; 
+    padding-top: 18px;
+    border-radius: 34px; 
+    width: 63px;
+    height: 63px;
+    font-size: 50px;
+  }
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+
+/*  rgb(230, 217, 219)  */
+  .container3{
+      margin-top: 200px;
+      width: 100%;
+      height: 450px;
+      background-color: rgb(245, 239, 240);
+      display: flex;
+  }
+
+  .image4{
+      position: relative;
+      left: 50px;
+      top: 30px;
+    width:500px;
+    height: 350px;
+  }
+
+  .title4{
+      position: relative;
+text-align: center;
+left: 200px;
+top: 65px;
+  }
+
+  .mail2{
+      position:absolute;
+      top: 2000px;
+      left: 590px;
+  }
+
+  .button2{
+    position: absolute;
+    top: 0.5px;
+    left: 514px;
+    text-align: center;
+    width: 135px;
+    height: 35px;
+    border-radius: 7px;
+    background-color: #ee286a;
+    color: white;
+    cursor: pointer;
+    padding-top: 10px;
+}
+.button2:hover{
+    background-color:rgb(31, 31, 97) ;
+}
+
+footer{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    background-color: rgb(230, 217, 219);
+}
+
+.image5{
+    width: 155px;
+    height: 85px;
+}
+
+.footbox{
+    position: relative;
+    top: 50px;
+    margin-top: 5px;
+text-align: center;
+    margin-left: 20px;
+    width: 500px;
+    height: 100%;
+    
+}
+
+.image6{
+    width: 25px;
+    height: 25px;
+    filter: invert(12%) sepia(65%) saturate(1689%) hue-rotate(222deg) brightness(99%) contrast(104%);
+}
+
+.image6:hover{
+    filter: invert(28%) sepia(83%) saturate(1853%) hue-rotate(317deg) brightness(91%) contrast(105%);
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
